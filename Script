@@ -1,0 +1,17 @@
+/*
+Student Name: Sydnei Flaig
+File Name: Script.js
+Date: September 13, 2022
+*/
+
+//Hamburger menu function
+function hamburger(){
+var menu = document.getElementByID("menu-links");
+var logo = document.getElementByID("ffc-logo");
+if (menu.style.diplay === "block" && logo.style.display === "none"){
+menu.style.display = "none";
+logo.style.display = "block";
+
+} else{
+menu.style.display ="block"
+logo.style.display = "none"}
